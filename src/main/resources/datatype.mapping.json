@@ -1,0 +1,127 @@
+[
+ {
+   "salesforce": "ANYTYPE",
+   "mysql": "TEXT",
+   "mssql": "NVARCHAR"
+ },
+ {
+   "salesforce": "TEXT",
+   "mysql": "TEXT",
+   "mssql": "NVARCHAR"
+ },
+ {
+   "salesforce": "BASE64",
+   "mysql": "TEXT",
+   "mssql": "VARCHAR"
+ },
+ {
+   "salesforce": "BOOLEAN",
+   "mysql": "BOOLEAN",
+   "mssql": "BOOLEAN"
+ },
+ {
+   "salesforce": "COMBOBOX",
+   "mysql": "VARCHAR",
+   "mssql": "NVARCHAR"
+ },
+ {
+   "salesforce": "CURRENCY",
+   "mysql": "DECIMAL",
+   "mssql": "DECIMAL"
+ },
+ {
+   "salesforce": "DATACATEGORYGROUPREFERENCE",
+   "mysql": "CHAR",
+   "mssql": "CHAR"
+ },
+ {
+   "salesforce": "DATE",
+   "mysql": "DATE",
+   "mssql": "DATE"
+ },
+ {
+   "salesforce": "DATETIME",
+   "mysql": "DATETIME",
+   "mssql": "DATETIME"
+ },
+ {
+   "salesforce": "DOUBLE",
+   "mysql": "DECIMAL",
+   "mssql": "DECIMAL"
+ },
+ {
+   "salesforce": "EMAIL",
+   "mysql": "VARCHAR",
+   "mssql": "NVARCHAR"
+ },
+ {
+   "salesforce": "ENCRYPTEDSTRING",
+   "mysql": "VARCHAR",
+   "mssql": "NVARCHAR"
+ },
+ {
+   "salesforce": "ID",
+   "mysql": "CHAR",
+   "mssql": "CHAR"
+ },
+ {
+   "salesforce": "INT",
+   "mysql": "INTEGER",
+   "mssql": "INT"
+ },
+ {
+   "salesforce": "MULTIPICKLIST",
+   "mysql": "VARCHAR",
+   "mssql": "NVARCHAR"
+ },
+ {
+   "salesforce": "PERCENT",
+   "mysql": "DECIMAL",
+   "mssql": "DECIMAL"
+ },
+ {
+   "salesforce": "PHONE",
+   "mysql": "VARCHAR",
+   "mssql": "NVARCHAR"
+ },
+ {
+   "salesforce": "PICKLIST",
+   "mysql": "VARCHAR",
+   "mssql": "NVARCHAR"
+ },
+ {
+   "salesforce": "REFERENCE",
+   "mysql": "CHAR",
+   "mssql": "CHAR"
+ },
+ {
+   "salesforce": "STRING",
+   "mysql": "VARCHAR",
+   "mssql": "NVARCHAR"
+ },
+ {
+   "salesforce": "TEXTAREA",
+   "mysql": "VARCHAR",
+   "mssql": "NVARCHAR"
+ },
+ {
+   "salesforce": "TIME",
+   "mysql": "DATETIME",
+   "mssql": "DATETIME"
+ },
+ {
+   "salesforce": "URL",
+   "mysql": "VARCHAR",
+   "mssql": "NVARCHAR"
+ }, 
+ {
+   "salesforce": "LOOKUP",
+   "mysql": "VARCHAR",
+   "mssql": "NVARCHAR"
+ }, 
+ {
+   "salesforce": "MULTIPICKLIST",
+   "mysql": "VARCHAR",
+   "mssql": "NVARCHAR"
+ }
+ ]

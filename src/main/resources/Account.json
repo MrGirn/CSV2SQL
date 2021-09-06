@@ -1,0 +1,1362 @@
+[
+  {
+    "fieldname": "AccountId",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "Address",
+    "fieldtype": "ADDRESS",
+    "size": "255"
+  },
+  {
+    "fieldname": "CompanyName",
+    "fieldtype": "TEXT",
+    "size": 255
+  },
+  {
+    "fieldname": "Email",
+    "fieldtype": "EMAIL",
+    "size": "255"
+  },
+  {
+    "fieldname": "LogoId",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "Name",
+    "fieldtype": "TEXT",
+    "size": 255
+  },
+  {
+    "fieldname": "OwnerId",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "Phone",
+    "fieldtype": "PHONE",
+    "size": "255"
+  },
+  {
+    "fieldname": "Website",
+    "fieldtype": "URL",
+    "size": 255
+  },
+  {
+    "fieldname": "AccountId",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "AccountAccessLevel",
+    "fieldtype": "PICKLIST",
+    "size": "255"
+  },
+  {
+    "fieldname": "CaseAccessLevel",
+    "fieldtype": "PICKLIST",
+    "size": "255"
+  },
+  {
+    "fieldname": "ContactAccessLevel",
+    "fieldtype": "PICKLIST",
+    "size": "255"
+  },
+  {
+    "fieldname": "CreatedById",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "LastModifiedById",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "OpportunityAccessLevel",
+    "fieldtype": "PICKLIST",
+    "size": "255"
+  },
+  {
+    "fieldname": "TeamMemberRole",
+    "fieldtype": "PICKLIST",
+    "size": "255"
+  },
+  {
+    "fieldname": "UserId",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "CreatedById",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "ActOn__id__c",
+    "fieldtype": "FORMULA",
+    "size": "255"
+  },
+  {
+    "fieldname": "LastModifiedById",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "Name",
+    "fieldtype": "TEXT",
+    "size": 80
+  },
+  {
+    "fieldname": "OwnerId",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "Preferred_Contact_Method__c",
+    "fieldtype": "TEXT",
+    "size": 15
+  },
+  {
+    "fieldname": "Primary__c",
+    "fieldtype": "CHECKBOX",
+    "size": "255"
+  },
+  {
+    "fieldname": "Product_Interest__c",
+    "fieldtype": "PICKLIST",
+    "size": "255"
+  },
+  {
+    "fieldname": "Prospect_1st_Created__c",
+    "fieldtype": "TIME",
+    "size": "255"
+  },
+  {
+    "fieldname": "Reassign_Request__c",
+    "fieldtype": "TEXT",
+    "size": 255
+  },
+  {
+    "fieldname": "Region__c",
+    "fieldtype": "FORMULA",
+    "size": "255"
+  },
+  {
+    "fieldname": "Regional_Manager__c",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "Rep__c",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "Rep_Number__c",
+    "fieldtype": "FORMULA",
+    "size": "255"
+  },
+  {
+    "fieldname": "ReportsToId",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "Request_for_a_CAD_Comments__c",
+    "fieldtype": "LONG TEXT AREA",
+    "size": 32768
+  },
+  {
+    "fieldname": "Request_For_CAD_Capacity__c",
+    "fieldtype": "TEXT AREA",
+    "size": 255
+  },
+  {
+    "fieldname": "Request_For_CAD_Part_No__c",
+    "fieldtype": "TEXT",
+    "size": 250
+  },
+  {
+    "fieldname": "Request_for_Quickship48_Comments__c",
+    "fieldtype": "LONG TEXT AREA",
+    "size": 32768
+  },
+  {
+    "fieldname": "Request_For_Quote_Accessories__c",
+    "fieldtype": "TEXT",
+    "size": 255
+  },
+  {
+    "fieldname": "Request_For_Quote_Application__c",
+    "fieldtype": "LONG TEXT AREA",
+    "size": 10000
+  },
+  {
+    "fieldname": "Request_For_Quote_Capacity__c",
+    "fieldtype": "TEXT",
+    "size": 255
+  },
+  {
+    "fieldname": "Request_for_Quote_Comments__c",
+    "fieldtype": "LONG TEXT AREA",
+    "size": 32768
+  },
+  {
+    "fieldname": "Request_For_Quote_Connectivity__c",
+    "fieldtype": "TEXT",
+    "size": 255
+  },
+  {
+    "fieldname": "Request_For_Quote_Instrumentation__c",
+    "fieldtype": "TEXT",
+    "size": 255
+  },
+  {
+    "fieldname": "Request_For_Quote_Model_Number__c",
+    "fieldtype": "TEXT",
+    "size": 255
+  },
+  {
+    "fieldname": "Request_For_Quote_Product_Info__c",
+    "fieldtype": "PICKLIST",
+    "size": "255"
+  },
+  {
+    "fieldname": "Request_For_Solution_Notes__c",
+    "fieldtype": "LONG TEXT AREA",
+    "size": 32768
+  },
+  {
+    "fieldname": "Request_For_Solution_Specifications__c",
+    "fieldtype": "TEXT AREA",
+    "size": 255
+  },
+  {
+    "fieldname": "Territory__c",
+    "fieldtype": "FORMULA",
+    "size": "255"
+  },
+  {
+    "fieldname": "Title",
+    "fieldtype": "TEXT",
+    "size": 128
+  },
+  {
+    "fieldname": "Unformatted_Phone_Number__c",
+    "fieldtype": "PHONE",
+    "size": "255"
+  },
+  {
+    "fieldname": "Web_Registration_Date__c",
+    "fieldtype": "DATE",
+    "size": "255"
+  },
+  {
+    "fieldname": "Web_Registration_Password__c",
+    "fieldtype": "TEXT",
+    "size": 30
+  },
+  {
+    "fieldname": "Web_Site_Request__c",
+    "fieldtype": "TEXT AREA",
+    "size": 255
+  },
+  {
+    "fieldname": "ContactId",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "CreatedById",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "LastModifiedById",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "OpportunityId",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "IsPrimary",
+    "fieldtype": "CHECKBOX",
+    "size": "255"
+  },
+  {
+    "fieldname": "Role",
+    "fieldtype": "PICKLIST",
+    "size": "255"
+  },
+  {
+    "fieldname": "Account_Vertical__c",
+    "fieldtype": "FORMULA",
+    "size": "255"
+  },
+  {
+    "fieldname": "Account_s_Region__c",
+    "fieldtype": "FORMULA",
+    "size": "255"
+  },
+  {
+    "fieldname": "Account_s_Territory__c",
+    "fieldtype": "FORMULA",
+    "size": "255"
+  },
+  {
+    "fieldname": "AE__c",
+    "fieldtype": "FORMULA",
+    "size": "255"
+  },
+  {
+    "fieldname": "Age_to_ClosedLost__c",
+    "fieldtype": "FORMULA",
+    "size": "255"
+  },
+  {
+    "fieldname": "Age_to_ClosedWon__c",
+    "fieldtype": "FORMULA",
+    "size": "255"
+  },
+  {
+    "fieldname": "Amount",
+    "fieldtype": "CURRENCY",
+    "size": "255"
+  },
+  {
+    "fieldname": "Budgetary__c",
+    "fieldtype": "CHECKBOX",
+    "size": "255"
+  },
+  {
+    "fieldname": "Buy_Resell__c",
+    "fieldtype": "CHECKBOX",
+    "size": "255"
+  },
+  {
+    "fieldname": "CloseDate",
+    "fieldtype": "DATE",
+    "size": "255"
+  },
+  {
+    "fieldname": "Closed_Lost_Date__c",
+    "fieldtype": "DATE",
+    "size": "255"
+  },
+  {
+    "fieldname": "Closed_Lost_Detail__c",
+    "fieldtype": "LONG TEXT AREA",
+    "size": 32768
+  },
+  {
+    "fieldname": "Deal_Lost_Reason__c",
+    "fieldtype": "PICKLIST",
+    "size": "255"
+  },
+  {
+    "fieldname": "ClosedWon_Date__c",
+    "fieldtype": "DATE",
+    "size": "255"
+  },
+  {
+    "fieldname": "AccountId",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "ContractId",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "Conversion_Notes__c",
+    "fieldtype": "LONG TEXT AREA",
+    "size": 1000
+  },
+  {
+    "fieldname": "Create_ECN__c",
+    "fieldtype": "PICKLIST",
+    "size": "255"
+  },
+  {
+    "fieldname": "CreatedById",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "Custom_Solution__c",
+    "fieldtype": "CHECKBOX",
+    "size": "255"
+  },
+  {
+    "fieldname": "Description",
+    "fieldtype": "LONG TEXT AREA",
+    "size": 32000
+  },
+  {
+    "fieldname": "IsExcludedFromTerritory2Filter",
+    "fieldtype": "CHECKBOX",
+    "size": "255"
+  },
+  {
+    "fieldname": "ExpectedRevenue",
+    "fieldtype": "PICKLIST",
+    "size": "255"
+  },
+  {
+    "fieldname": "Extended_Price_Sum__c",
+    "fieldtype": "PICKLIST",
+    "size": "255"
+  },
+  {
+    "fieldname": "Follow_Up_Date__c",
+    "fieldtype": "DATE",
+    "size": "255"
+  },
+  {
+    "fieldname": "ForecastCategoryName",
+    "fieldtype": "PICKLIST",
+    "size": "255"
+  },
+  {
+    "fieldname": "Forecast_Percent__c",
+    "fieldtype": "PERCENT",
+    "size": "255"
+  },
+  {
+    "fieldname": "House_Account__c",
+    "fieldtype": "FORMULA",
+    "size": "255"
+  },
+  {
+    "fieldname": "Interface_Sales_Order_No__c",
+    "fieldtype": "NUMBER",
+    "size": "255"
+  },
+  {
+    "fieldname": "Key_Account__c",
+    "fieldtype": "FORMULA",
+    "size": "255"
+  },
+  {
+    "fieldname": "Key_Pursuit__c",
+    "fieldtype": "CHECKBOX",
+    "size": "255"
+  },
+  {
+    "fieldname": "LastModifiedById",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "Last_Note__c",
+    "fieldtype": "TEXT AREA",
+    "size": "255"
+  },
+  {
+    "fieldname": "LeadSource",
+    "fieldtype": "PICKLIST",
+    "size": "255"
+  },
+  {
+    "fieldname": "LH__LH_Test_1__c",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "LH__LH_Test_2__c",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "MIS_Returned__c",
+    "fieldtype": "DATE",
+    "size": "255"
+  },
+  {
+    "fieldname": "MIS_Submitted__c",
+    "fieldtype": "DATE",
+    "size": "255"
+  },
+  {
+    "fieldname": "Next_Agreed_to_Steps__c",
+    "fieldtype": "TEXT AREA",
+    "size": 255
+  },
+  {
+    "fieldname": "NextStep",
+    "fieldtype": "TEXT",
+    "size": 255
+  },
+  {
+    "fieldname": "OEM_Account__c",
+    "fieldtype": "CHECKBOX",
+    "size": "255"
+  },
+  {
+    "fieldname": "Name",
+    "fieldtype": "TEXT",
+    "size": 120
+  },
+  {
+    "fieldname": "Opportunity_Notes__c",
+    "fieldtype": "LONG TEXT AREA",
+    "size": 100000
+  },
+  {
+    "fieldname": "OwnerId",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "RecordTypeId",
+    "fieldtype": "RECORD TYPE",
+    "size": "255"
+  },
+  {
+    "fieldname": "IqScore",
+    "fieldtype": "NUMBER",
+    "size": "9, 0"
+  },
+  {
+    "fieldname": "Opt_Out_of_Future_Mass_Edits__c",
+    "fieldtype": "PICKLIST",
+    "size": "255"
+  },
+  {
+    "fieldname": "PartnerAccountId",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "PRF_Returned__c",
+    "fieldtype": "DATE",
+    "size": "255"
+  },
+  {
+    "fieldname": "PRF_Submitted__c",
+    "fieldtype": "DATE",
+    "size": "255"
+  },
+  {
+    "fieldname": "Pricebook2Id",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "CampaignId",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "Primary_Contact__c",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "IsPrivate",
+    "fieldtype": "CHECKBOX",
+    "size": "255"
+  },
+  {
+    "fieldname": "Probability",
+    "fieldtype": "PERCENT",
+    "size": "255"
+  },
+  {
+    "fieldname": "Project_Required__c",
+    "fieldtype": "PICKLIST",
+    "size": "255"
+  },
+  {
+    "fieldname": "Promise_Date__c",
+    "fieldtype": "DATE",
+    "size": "255"
+  },
+  {
+    "fieldname": "Purchase_Order_No__c",
+    "fieldtype": "TEXT",
+    "size": 50
+  },
+  {
+    "fieldname": "TotalOpportunityQuantity",
+    "fieldtype": "NUMBER",
+    "size": "255"
+  },
+  {
+    "fieldname": "Regional_Manager__c",
+    "fieldtype": "FORMULA",
+    "size": "255"
+  },
+  {
+    "fieldname": "Rep__c",
+    "fieldtype": "FORMULA",
+    "size": "255"
+  },
+  {
+    "fieldname": "IsActive",
+    "fieldtype": "CHECKBOX",
+    "size": "255"
+  },
+  {
+    "fieldname": "CreatedById",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "Description",
+    "fieldtype": "TEXT",
+    "size": 255
+  },
+  {
+    "fieldname": "IsStandard",
+    "fieldtype": "CHECKBOX",
+    "size": "255"
+  },
+  {
+    "fieldname": "LastModifiedById",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "Name",
+    "fieldtype": "TEXT",
+    "size": 255
+  },
+  {
+    "fieldname": "IsActive",
+    "fieldtype": "CHECKBOX",
+    "size": "255"
+  },
+  {
+    "fieldname": "CreatedById",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "LastModifiedById",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "UnitPrice",
+    "fieldtype": "CURRENCY",
+    "size": "16, 2"
+  },
+  {
+    "fieldname": "Previous_List_Price__c",
+    "fieldtype": "CURRENCY",
+    "size": "10, 2"
+  },
+  {
+    "fieldname": "Pricebook2Id",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "Product2Id",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "ProductCode",
+    "fieldtype": "TEXT",
+    "size": 255
+  },
+  {
+    "fieldname": "UseStandardPrice",
+    "fieldtype": "CHECKBOX",
+    "size": "255"
+  },
+  {
+    "fieldname": "AdditionalAddress",
+    "fieldtype": "ADDRESS",
+    "size": "255"
+  },
+  {
+    "fieldname": "AdditionalName",
+    "fieldtype": "TEXT",
+    "size": 255
+  },
+  {
+    "fieldname": "Advanced_Purchase__c",
+    "fieldtype": "CHECKBOX",
+    "size": "255"
+  },
+  {
+    "fieldname": "BillingAddress",
+    "fieldtype": "ADDRESS",
+    "size": "255"
+  },
+  {
+    "fieldname": "BillingName",
+    "fieldtype": "TEXT",
+    "size": 255
+  },
+  {
+    "fieldname": "AccountId",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "Contact_Email__c",
+    "fieldtype": "FORMULA",
+    "size": "255"
+  },
+  {
+    "fieldname": "Contact_Fax__c",
+    "fieldtype": "FORMULA",
+    "size": "255"
+  },
+  {
+    "fieldname": "Contact_Location__c",
+    "fieldtype": "FORMULA",
+    "size": "255"
+  },
+  {
+    "fieldname": "ContactId",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "Contact_Phone__c",
+    "fieldtype": "FORMULA",
+    "size": "255"
+  },
+  {
+    "fieldname": "ContractId",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "CreatedById",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "Discount",
+    "fieldtype": "PERCENT",
+    "size": "255"
+  },
+  {
+    "fieldname": "Email",
+    "fieldtype": "EMAIL",
+    "size": "255"
+  },
+  {
+    "fieldname": "Ex_Area__c",
+    "fieldtype": "FORMULA",
+    "size": "255"
+  },
+  {
+    "fieldname": "Ex1__c",
+    "fieldtype": "FORMULA",
+    "size": "255"
+  },
+  {
+    "fieldname": "Ex2__c",
+    "fieldtype": "FORMULA",
+    "size": "255"
+  },
+  {
+    "fieldname": "Ex3__c",
+    "fieldtype": "FORMULA",
+    "size": "255"
+  },
+  {
+    "fieldname": "Ex4__c",
+    "fieldtype": "FORMULA",
+    "size": "255"
+  },
+  {
+    "fieldname": "Ex5__c",
+    "fieldtype": "FORMULA",
+    "size": "255"
+  },
+  {
+    "fieldname": "Ex6__c",
+    "fieldtype": "FORMULA",
+    "size": "255"
+  },
+  {
+    "fieldname": "Ex7__c",
+    "fieldtype": "FORMULA",
+    "size": "255"
+  },
+  {
+    "fieldname": "ExpirationDate",
+    "fieldtype": "DATE",
+    "size": "255"
+  },
+  {
+    "fieldname": "Fax",
+    "fieldtype": "FAX",
+    "size": "255"
+  },
+  {
+    "fieldname": "GrandTotal",
+    "fieldtype": "CURRENCY",
+    "size": "255"
+  },
+  {
+    "fieldname": "Ex__c",
+    "fieldtype": "PICKLIST",
+    "size": "255"
+  },
+  {
+    "fieldname": "LastModifiedById",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "Description",
+    "fieldtype": "LONG TEXT AREA",
+    "size": 32000
+  },
+  {
+    "fieldname": "LineItemCount",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "Opportunity_ID__c",
+    "fieldtype": "FORMULA",
+    "size": "255"
+  },
+  {
+    "fieldname": "OpportunityId",
+    "fieldtype": "MASTER-DETAIL",
+    "size": "255"
+  },
+  {
+    "fieldname": "OwnerId",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "Phone",
+    "fieldtype": "PHONE",
+    "size": "255"
+  },
+  {
+    "fieldname": "Purchase_Order_No__c",
+    "fieldtype": "TEXT",
+    "size": 50
+  },
+  {
+    "fieldname": "Name",
+    "fieldtype": "TEXT",
+    "size": 255
+  },
+  {
+    "fieldname": "QuoteNumber",
+    "fieldtype": "AUTO NUMBER",
+    "size": "255"
+  },
+  {
+    "fieldname": "RecordTypeId",
+    "fieldtype": "RECORD TYPE",
+    "size": "255"
+  },
+  {
+    "fieldname": "QuoteToAddress",
+    "fieldtype": "ADDRESS",
+    "size": "255"
+  },
+  {
+    "fieldname": "QuoteToName",
+    "fieldtype": "TEXT",
+    "size": 255
+  },
+  {
+    "fieldname": "Sales_Rep__c",
+    "fieldtype": "FORMULA",
+    "size": "255"
+  },
+  {
+    "fieldname": "Sales_Rep_Comp__c",
+    "fieldtype": "FORMULA",
+    "size": "255"
+  },
+  {
+    "fieldname": "Sales_Rep_Company__c",
+    "fieldtype": "FORMULA",
+    "size": "255"
+  },
+  {
+    "fieldname": "Sales_Rep_Contacxt__c",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "Sales_Rep_Email__c",
+    "fieldtype": "FORMULA",
+    "size": "255"
+  },
+  {
+    "fieldname": "Sales_Rep_Feedback__c",
+    "fieldtype": "LONG TEXT AREA",
+    "size": 32768
+  },
+  {
+    "fieldname": "Sales_Rep_Phone__c",
+    "fieldtype": "CHECKBOX",
+    "size": "255"
+  },
+  {
+    "fieldname": "ShippingAddress",
+    "fieldtype": "ADDRESS",
+    "size": "255"
+  },
+  {
+    "fieldname": "ShippingName",
+    "fieldtype": "TEXT",
+    "size": 255
+  },
+  {
+    "fieldname": "ShippingHandling",
+    "fieldtype": "CHECKBOX",
+    "size": "255"
+  },
+  {
+    "fieldname": "Status",
+    "fieldtype": "PICKLIST",
+    "size": "255"
+  },
+  {
+    "fieldname": "Subtotal",
+    "fieldtype": "CHECKBOX",
+    "size": "255"
+  },
+  {
+    "fieldname": "IsSyncing",
+    "fieldtype": "CHECKBOX",
+    "size": "255"
+  },
+  {
+    "fieldname": "Tax",
+    "fieldtype": "CURRENCY",
+    "size": "255"
+  },
+  {
+    "fieldname": "Terms__c",
+    "fieldtype": "PICKLIST",
+    "size": "255"
+  },
+  {
+    "fieldname": "Test_Text__c",
+    "fieldtype": "LONG TEXT AREA",
+    "size": "255"
+  },
+  {
+    "fieldname": "TotalPrice",
+    "fieldtype": "LONG TEXT AREA",
+    "size": "255"
+  },
+  {
+    "fieldname": "IsActive",
+    "fieldtype": "CHECKBOX",
+    "size": "255"
+  },
+  {
+    "fieldname": "Capacity__c",
+    "fieldtype": "TEXT",
+    "size": 15
+  },
+  {
+    "fieldname": "CreatedById",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "Created_Date__c",
+    "fieldtype": "DATE",
+    "size": "255"
+  },
+  {
+    "fieldname": "DisplayUrl",
+    "fieldtype": "URL",
+    "size": 1000
+  },
+  {
+    "fieldname": "ExternalDataSourceId",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "ExternalId",
+    "fieldtype": "TEXT",
+    "size": 255
+  },
+  {
+    "fieldname": "LastModifiedById",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "Opp_Created_Date__c",
+    "fieldtype": "DATE",
+    "size": "255"
+  },
+  {
+    "fieldname": "Opportunity__c",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "Name",
+    "fieldtype": "TEXT",
+    "size": 255
+  },
+  {
+    "fieldname": "ProductCode",
+    "fieldtype": "TEXT",
+    "size": 255
+  },
+  {
+    "fieldname": "Description",
+    "fieldtype": "TEXT AREA",
+    "size": 4000
+  },
+  {
+    "fieldname": "Family",
+    "fieldtype": "PICKLIST",
+    "size": "255"
+  },
+  {
+    "fieldname": "Product_Feature_Codes__c",
+    "fieldtype": "TEXT",
+    "size": 80
+  },
+  {
+    "fieldname": "Product_ID__c",
+    "fieldtype": "FORMULA",
+    "size": "255"
+  },
+  {
+    "fieldname": "Product_Option__c",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "RecordTypeId",
+    "fieldtype": "RECORD TYPE",
+    "size": "255"
+  },
+  {
+    "fieldname": "Product_Series__c",
+    "fieldtype": "PICKLIST",
+    "size": "255"
+  },
+  {
+    "fieldname": "StockKeepingUnit",
+    "fieldtype": "TEXT",
+    "size": 180
+  },
+  {
+    "fieldname": "Product_Subfamily__c",
+    "fieldtype": "PICKLIST",
+    "size": "255"
+  },
+  {
+    "fieldname": "ProductID18__c",
+    "fieldtype": "FORMULA",
+    "size": "255"
+  },
+  {
+    "fieldname": "Production_Product_Family__c",
+    "fieldtype": "TEXT",
+    "size": 255
+  },
+  {
+    "fieldname": "QuantityUnitOfMeasure",
+    "fieldtype": "PICKLIST",
+    "size": "255"
+  },
+  {
+    "fieldname": "Status__c",
+    "fieldtype": "PICKLIST",
+    "size": "255"
+  },
+  {
+    "fieldname": "Account_Identification__c",
+    "fieldtype": "PICKLIST",
+    "size": "255"
+  },
+  {
+    "fieldname": "AccountNumber",
+    "fieldtype": "TEXT",
+    "size": 40
+  },
+  {
+    "fieldname": "OwnerId",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "RecordTypeId",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "Site",
+    "fieldtype": "TEXT",
+    "size": 80
+  },
+  {
+    "fieldname": "AccountSource",
+    "fieldtype": "PICKLIST",
+    "size": "255"
+  },
+  {
+    "fieldname": "Account_Type__c",
+    "fieldtype": "PICKLIST",
+    "size": "255"
+  },
+  {
+    "fieldname": "AE__c",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "AnnualRevenue",
+    "fieldtype": "CURRENCY",
+    "size": "18, 0"
+  },
+  {
+    "fieldname": "BillingAddress",
+    "fieldtype": "ADDRESS",
+    "size": "255"
+  },
+  {
+    "fieldname": "X2019_Budget__c",
+    "fieldtype": "CURRENCY",
+    "size": "18, 0"
+  },
+  {
+    "fieldname": "X2020_Budget__c",
+    "fieldtype": "CURRENCY",
+    "size": "18, 0"
+  },
+  {
+    "fieldname": "ChannelProgramLevelName",
+    "fieldtype": "TEXT",
+    "size": 255
+  },
+  {
+    "fieldname": "ChannelProgramName",
+    "fieldtype": "TEXT",
+    "size": 255
+  },
+  {
+    "fieldname": "Name",
+    "fieldtype": "NAME",
+    "size": "255"
+  },
+  {
+    "fieldname": "Conversion_Notes__c",
+    "fieldtype": "LONG TEXT AREA",
+    "size": 32768
+  },
+  {
+    "fieldname": "CreatedById",
+    "fieldtype": "LOOKUP",
+    "size": "User"
+  },
+  {
+    "fieldname": "Jigsaw",
+    "fieldtype": "TEXT",
+    "size": 20
+  },
+  {
+    "fieldname": "Description",
+    "fieldtype": "LONG TEXT AREA",
+    "size": 32000
+  },
+  {
+    "fieldname": "NumberOfEmployees",
+    "fieldtype": "NUMBER",
+    "size": "8, 0"
+  },
+  {
+    "fieldname": "IsExcludedFromRealign",
+    "fieldtype": "CHECKBOX",
+    "size": "255"
+  },
+  {
+    "fieldname": "Executive_Sponsor__c",
+    "fieldtype": "CHECKBOX",
+    "size": "255"
+  },
+  {
+    "fieldname": "Executive_Sponsor_Name__c",
+    "fieldtype": "PICKLIST",
+    "size": "255"
+  },
+  {
+    "fieldname": "Fax",
+    "fieldtype": "FAX",
+    "size": "255"
+  },
+  {
+    "fieldname": "Flipper__c",
+    "fieldtype": "CHECKBOX",
+    "size": "255"
+  },
+  {
+    "fieldname": "House_Account__c",
+    "fieldtype": "CHECKBOX",
+    "size": "255"
+  },
+  {
+    "fieldname": "Industry",
+    "fieldtype": "PICKLIST",
+    "size": "255"
+  },
+  {
+    "fieldname": "Industry_Code__c",
+    "fieldtype": "TEXT",
+    "size": 10
+  },
+  {
+    "fieldname": "Key_Account__c",
+    "fieldtype": "CHECKBOX",
+    "size": "255"
+  },
+  {
+    "fieldname": "LastModifiedById",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "OEM_Account__c",
+    "fieldtype": "CHECKBOX",
+    "size": "255"
+  },
+  {
+    "fieldname": "Opt_Out_of_Future_Mass_Edits__c",
+    "fieldtype": "PICKLIST",
+    "size": "255"
+  },
+  {
+    "fieldname": "AccountId",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "Address",
+    "fieldtype": "ADDRESS",
+    "size": "255"
+  },
+  {
+    "fieldname": "CompanyName",
+    "fieldtype": "TEXT",
+    "size": 255
+  },
+  {
+    "fieldname": "Email",
+    "fieldtype": "EMAIL",
+    "size": "255"
+  },
+  {
+    "fieldname": "LogoId",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "Name",
+    "fieldtype": "TEXT",
+    "size": 255
+  },
+  {
+    "fieldname": "OwnerId",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "Phone",
+    "fieldtype": "PHONE",
+    "size": "255"
+  },
+  {
+    "fieldname": "Website",
+    "fieldtype": "URL",
+    "size": 255
+  },
+  {
+    "fieldname": "AccountId",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "AccountAccessLevel",
+    "fieldtype": "PICKLIST",
+    "size": "255"
+  },
+  {
+    "fieldname": "CaseAccessLevel",
+    "fieldtype": "PICKLIST",
+    "size": "255"
+  },
+  {
+    "fieldname": "ContactAccessLevel",
+    "fieldtype": "PICKLIST",
+    "size": "255"
+  },
+  {
+    "fieldname": "CreatedById",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "LastModifiedById",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "OpportunityAccessLevel",
+    "fieldtype": "PICKLIST",
+    "size": "255"
+  },
+  {
+    "fieldname": "TeamMemberRole",
+    "fieldtype": "PICKLIST",
+    "size": "255"
+  },
+  {
+    "fieldname": "UserId",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "CreatedById",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "ActOn__id__c",
+    "fieldtype": "FORMULA",
+    "size": "255"
+  },
+  {
+    "fieldname": "LastModifiedById",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  },
+  {
+    "fieldname": "Name",
+    "fieldtype": "TEXT",
+    "size": 80
+  },
+  {
+    "fieldname": "OwnerId",
+    "fieldtype": "LOOKUP",
+    "size": "255"
+  }
+]
